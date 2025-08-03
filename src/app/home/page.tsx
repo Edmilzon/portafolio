@@ -1,6 +1,12 @@
+"use client";
 import Button from "@/components/forms/button";
 
 export default function Home() {
+
+    const proyects = () => {
+        console.log("proyectos");
+    }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       {/* Hero Section */}
@@ -32,7 +38,7 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 animate-fade-in-delay-2">
-            <Button size="lg" variant="primary">
+            <Button size="lg" variant="primary" onClick={proyects}>
               Ver Proyectos
             </Button>
             <Button size="lg" variant="outline">
