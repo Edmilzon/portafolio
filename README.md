@@ -155,7 +155,7 @@ public/                           # Archivos estáticos
 └── fonts/                        # Fuentes personalizadas
 
 docs/                             # Documentación
-├── architecture.md               # Documentación de arquitectura
+├── architecture.md                # Documentación de arquitectura
 ├── api.md                        # Documentación de API
 └── deployment.md                 # Guía de despliegue
 
